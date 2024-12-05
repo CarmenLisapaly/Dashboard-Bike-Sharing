@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Membaca data dari all_data.csv
-all_data = pd.read_csv('all_data.csv')
+all_data = pd.read_csv('dashboard/all_data.csv')
 
 # Mengatur tema dan estetika Streamlit
 st.set_page_config(page_title="Bike Sharing Dashboard", page_icon="🚲", layout="wide")
